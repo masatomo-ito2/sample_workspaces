@@ -6,10 +6,5 @@ terraform {
   }
 }
 
-provider "tfe" {
-  version  = "~> 0.26.0"
-}
-
-# Create an organization
-
+provider "tfe" { }
 
