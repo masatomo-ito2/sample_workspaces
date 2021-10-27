@@ -5,8 +5,8 @@ variable "ws" {
 			tags = [ "dev", "ProjX" ]
 		},
 		{
-			ws_name = "ProjX-network-dev"
-			tags = [ "dev", "ProjX" ]
+			ws_name = "ProjX-storage-dev"
+			tags = [ "storage", "ProjX" ]
 		},
 	]
 }
