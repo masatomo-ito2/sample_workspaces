@@ -2,39 +2,39 @@ variable "ws" {
 	default = [
 		{
 			ws_name = "ProjX-network-dev"
-			tags = [ "dev", "network" ]
+			tags = [ "dev", "network", "ProjX" ]
 		},
 		{
 			ws_name = "ProjX-storage-dev"
-			tags = [ "dev", "storage" ]
+			tags = [ "dev", "storage", "ProjX" ]
 		},
 		{
 			ws_name = "ProjX-app-dev"
-			tags = [ "dev",  "app" ]
+			tags = [ "dev",  "app", "ProjX" ]
 		},
 		{
 			ws_name = "ProjX-network-staging"
-			tags = [ "staging", "network" ]
+			tags = [ "staging", "network", "ProjX" ]
 		},
 		{
 			ws_name = "ProjX-storage-staging"
-			tags = [ "staging", "storage" ]
+			tags = [ "staging", "storage", "ProjX" ]
 		},
 		{
 			ws_name = "ProjX-app-staging"
-			tags = [ "staging",  "app" ]
+			tags = [ "staging",  "app", "ProjX" ]
 		},
 		{
 			ws_name = "ProjX-network-prod"
-			tags = [ "prod", "network" ]
+			tags = [ "prod", "network", "ProjX" ]
 		},
 		{
 			ws_name = "ProjX-storage-prod"
-			tags = [ "prod", "storage" ]
+			tags = [ "prod", "storage", "ProjX" ]
 		},
 		{
 			ws_name = "ProjX-app-prod"
-			tags = [ "prod",  "app" ]
+			tags = [ "prod",  "app", "ProjX" ]
 		},
 	]
 }
